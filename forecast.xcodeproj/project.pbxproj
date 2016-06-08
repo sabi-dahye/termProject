@@ -12,6 +12,15 @@
 		A181E2761D04325900D3C56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A181E2741D04325900D3C56E /* Main.storyboard */; };
 		A181E2781D04325900D3C56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A181E2771D04325900D3C56E /* Assets.xcassets */; };
 		A181E27B1D04325900D3C56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A181E2791D04325900D3C56E /* LaunchScreen.storyboard */; };
+		A181E2851D0491E300D3C56E /* FileImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2841D0491E300D3C56E /* FileImport.swift */; };
+		A181E2891D049C1700D3C56E /* TabBarContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2881D049C1700D3C56E /* TabBarContoller.swift */; };
+		A181E28B1D04A42900D3C56E /* CityDataFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E28A1D04A42900D3C56E /* CityDataFormat.swift */; };
+		A181E2911D04CED700D3C56E /* DetailViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2901D04CED700D3C56E /* DetailViewController1.swift */; };
+		A181E2931D054B7A00D3C56E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2921D054B7A00D3C56E /* MasterViewController.swift */; };
+		A181E2971D054C5300D3C56E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2961D054C5300D3C56E /* DetailViewController.swift */; };
+		A181E2991D056B3400D3C56E /* ForecastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2981D056B3400D3C56E /* ForecastController.swift */; };
+		A181E29B1D06B3D800D3C56E /* ForecastCityInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = A181E29A1D06B3D800D3C56E /* ForecastCityInfo.txt */; };
+		A181E2C21D07EE2A00D3C56E /* GrahpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181E2C11D07EE2A00D3C56E /* GrahpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		A181E2771D04325900D3C56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A181E27A1D04325900D3C56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A181E27C1D04325900D3C56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A181E2841D0491E300D3C56E /* FileImport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileImport.swift; sourceTree = "<group>"; };
+		A181E2881D049C1700D3C56E /* TabBarContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarContoller.swift; sourceTree = "<group>"; };
+		A181E28A1D04A42900D3C56E /* CityDataFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDataFormat.swift; sourceTree = "<group>"; };
+		A181E2901D04CED700D3C56E /* DetailViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController1.swift; sourceTree = "<group>"; };
+		A181E2921D054B7A00D3C56E /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A181E2961D054C5300D3C56E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A181E2981D056B3400D3C56E /* ForecastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastController.swift; sourceTree = "<group>"; };
+		A181E29A1D06B3D800D3C56E /* ForecastCityInfo.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = ForecastCityInfo.txt; sourceTree = "<group>"; };
+		A181E2C11D07EE2A00D3C56E /* GrahpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrahpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,21 @@
 		A181E26F1D04325900D3C56E /* forecast */ = {
 			isa = PBXGroup;
 			children = (
+				A181E29A1D06B3D800D3C56E /* ForecastCityInfo.txt */,
+				A181E2961D054C5300D3C56E /* DetailViewController.swift */,
 				A181E2701D04325900D3C56E /* AppDelegate.swift */,
 				A181E2721D04325900D3C56E /* ViewController.swift */,
 				A181E2741D04325900D3C56E /* Main.storyboard */,
 				A181E2771D04325900D3C56E /* Assets.xcassets */,
 				A181E2791D04325900D3C56E /* LaunchScreen.storyboard */,
 				A181E27C1D04325900D3C56E /* Info.plist */,
+				A181E2841D0491E300D3C56E /* FileImport.swift */,
+				A181E2881D049C1700D3C56E /* TabBarContoller.swift */,
+				A181E28A1D04A42900D3C56E /* CityDataFormat.swift */,
+				A181E2901D04CED700D3C56E /* DetailViewController1.swift */,
+				A181E2921D054B7A00D3C56E /* MasterViewController.swift */,
+				A181E2981D056B3400D3C56E /* ForecastController.swift */,
+				A181E2C11D07EE2A00D3C56E /* GrahpView.swift */,
 			);
 			path = forecast;
 			sourceTree = "<group>";
@@ -125,6 +152,7 @@
 				A181E27B1D04325900D3C56E /* LaunchScreen.storyboard in Resources */,
 				A181E2781D04325900D3C56E /* Assets.xcassets in Resources */,
 				A181E2761D04325900D3C56E /* Main.storyboard in Resources */,
+				A181E29B1D06B3D800D3C56E /* ForecastCityInfo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A181E2931D054B7A00D3C56E /* MasterViewController.swift in Sources */,
 				A181E2731D04325900D3C56E /* ViewController.swift in Sources */,
 				A181E2711D04325900D3C56E /* AppDelegate.swift in Sources */,
+				A181E2991D056B3400D3C56E /* ForecastController.swift in Sources */,
+				A181E28B1D04A42900D3C56E /* CityDataFormat.swift in Sources */,
+				A181E2891D049C1700D3C56E /* TabBarContoller.swift in Sources */,
+				A181E2971D054C5300D3C56E /* DetailViewController.swift in Sources */,
+				A181E2851D0491E300D3C56E /* FileImport.swift in Sources */,
+				A181E2911D04CED700D3C56E /* DetailViewController1.swift in Sources */,
+				A181E2C21D07EE2A00D3C56E /* GrahpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
